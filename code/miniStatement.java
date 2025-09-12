@@ -10,7 +10,6 @@ public class miniStatement extends JFrame{
         setSize(400, 600);
         getContentPane().setBackground(new Color(255,204,204));
         setLocation(30, 30);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(null);
 
         JLabel label1=new JLabel();

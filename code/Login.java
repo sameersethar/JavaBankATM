@@ -18,14 +18,14 @@ public class Login extends JFrame implements ActionListener{
         setExtendedState(JFrame.MAXIMIZED_BOTH);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(null);
-        ImageIcon i1 = new ImageIcon("D:/Bank management oop project/images/bank.png");
+        ImageIcon i1 = new ImageIcon("D:/JavaBankATM/images/bank.png");
         Image i2=i1.getImage().getScaledInstance(150,150,Image.SCALE_DEFAULT);
         ImageIcon i3=new ImageIcon(i2);
         JLabel image=new JLabel(i3);
         image.setBounds(590,10,150,150);
         add(image);
 
-        ImageIcon ii1 = new ImageIcon("D:/Bank management oop project/images/card.png");
+        ImageIcon ii1 = new ImageIcon("D:/JavaBankATM/images/card.png");
         Image ii2=ii1.getImage().getScaledInstance(140,140,Image.SCALE_DEFAULT);
         ImageIcon ii3=new ImageIcon(ii2);
         JLabel iimage=new JLabel(ii3);
@@ -84,7 +84,7 @@ public class Login extends JFrame implements ActionListener{
         signupButton.addActionListener(this);
         add(signupButton);
 
-        ImageIcon iii1 = new ImageIcon("D:/Bank management oop project/images/backbg.png");
+        ImageIcon iii1 = new ImageIcon("D:/JavaBankATM/images/backbg.png");
         Image iii2=iii1.getImage().getScaledInstance(1400,720,Image.SCALE_DEFAULT);
         ImageIcon iii3=new ImageIcon(iii2);
         JLabel iiimage=new JLabel(iii3);

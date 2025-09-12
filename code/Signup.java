@@ -24,7 +24,7 @@ public class Signup extends JFrame implements ActionListener{
         setLayout(null);
         getContentPane().setBackground(new Color(222,255,228));
 
-        ImageIcon i1=new ImageIcon("D:/Bank management oop project/images/bank.png");
+        ImageIcon i1=new ImageIcon("D:/JavaBankATM/images/bank.png");
         Image i2=i1.getImage().getScaledInstance(130,130, Image.SCALE_DEFAULT);
         ImageIcon i3=new ImageIcon(i2);
         JLabel image= new JLabel(i3);

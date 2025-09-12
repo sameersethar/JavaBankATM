@@ -15,7 +15,7 @@ public class Deposit extends JFrame implements ActionListener{
         setLayout(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pin=pin;
-        ImageIcon i1=new ImageIcon("D:/Bank management oop project/images/atm2.png");
+        ImageIcon i1=new ImageIcon("D:/JavaBankATM/images/atm2.png");
         java.awt.Image i2=i1.getImage().getScaledInstance(1400, 700, Image.SCALE_DEFAULT);
         ImageIcon i3=new ImageIcon(i2);
         JLabel image=new JLabel(i3);
