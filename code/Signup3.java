@@ -7,6 +7,7 @@ import javax.swing.*;
 
 public class Signup3 extends JFrame implements ActionListener{
     String formNo;
+    int id;
     JRadioButton r1,r2,r3,r4;
     JCheckBox b1,b2,b3,b4,b5,b6,b7;
     JButton submitButton,cancelButton;
@@ -235,7 +236,7 @@ public class Signup3 extends JFrame implements ActionListener{
                 else{
                     Conn conn=new Conn();
                     String q1="insert into signup3 values ('"+formNo+"','"+accountType+"','"+accountNo+"','"+pin+"','"+services+"')";
-                    String q2="insert into login values ('"+formNo+"','"+accountNo+"','"+pin+"')";
+                    String q2="insert into login values ('"+id+"','"+formNo+"','"+accountNo+"','"+pin+"')";
                     conn.statement.executeUpdate(q1);
                     conn.statement.executeUpdate(q2);
                     JOptionPane.showMessageDialog(null, "Card Number: "+accountNo+"\n Pin: "+pin);
